@@ -30,11 +30,10 @@ def click(event):
 root = Tk()
 
 root.geometry("385x344")
-root.minsize(370,451)     #width * height
-root.maxsize(370,451)     #width * height
+root.minsize(370,451)     
+root.maxsize(370,451)    
 
 root.title("Calculator By Prateek")
-#root.wm_iconbitmap("1.ico")          #for icon change
 
 
 scvalue = StringVar()
